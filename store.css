@@ -1,0 +1,30 @@
+* {
+  background-color: lightgrey;
+}
+
+h1 {
+  text-align: center;
+  color: darkslategray;
+  font-size: 100px;
+}
+button,
+input {
+  border-color: darkslategrey;
+  border-width: 2px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+img {
+  display: block;
+
+  margin-right: auto;
+}
+img:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+}
